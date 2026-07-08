@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 525" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#E5673B"/>
+    </marker>
+  </defs>
+
+  <!-- fundo -->
+  <rect x="0" y="0" width="1000" height="525" fill="#FFF6EF"/>
+
+  <!-- título -->
+  <text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#182c61">Fluxograma dos arquivos — Bar do Maranhão</text>
+
+  <!-- linhas de estrutura (navy) -->
+  <g stroke="#182c61" stroke-width="2" fill="none">
+    <path d="M500,102 L500,126"/>
+    <path d="M170,126 L830,126"/>
+    <path d="M170,126 L170,150"/>
+    <path d="M390,126 L390,150"/>
+    <path d="M610,126 L610,150"/>
+    <path d="M830,126 L830,150"/>
+    <path d="M500,126 L500,250"/>
+    <path d="M500,296 L500,326"/>
+    <path d="M140,326 L860,326"/>
+    <path d="M140,326 L140,350"/>
+    <path d="M380,326 L380,350"/>
+    <path d="M620,326 L620,350"/>
+    <path d="M860,326 L860,350"/>
+  </g>
+
+  <!-- setas de referência (coral tracejada) -->
+  <g stroke="#E5673B" stroke-width="1.8" fill="none" stroke-dasharray="5 4" marker-end="url(#arrow)">
+    <path d="M245,171 L308,171"/>
+    <path d="M170,192 C170,235 250,258 384,266"/>
+  </g>
+
+  <!-- raiz -->
+  <rect x="395" y="58" width="210" height="44" rx="8" fill="#FF7F50" stroke="#E5673B" stroke-width="2"/>
+  <text x="500" y="85" text-anchor="middle" font-size="16" font-weight="700" fill="#182c61" font-family="monospace">bar-do-maranhao/</text>
+
+  <!-- arquivos nível 1 -->
+  <g font-family="monospace" font-size="13" fill="#182c61" text-anchor="middle">
+    <rect x="95"  y="150" width="150" height="42" rx="6" fill="#ffffff" stroke="#FF7F50" stroke-width="2"/>
+    <text x="170" y="176">index.html</text>
+    <rect x="315" y="150" width="150" height="42" rx="6" fill="#ffffff" stroke="#FF7F50" stroke-width="2"/>
+    <text x="390" y="176">main.css</text>
+    <rect x="535" y="150" width="150" height="42" rx="6" fill="#ffffff" stroke="#FF7F50" stroke-width="2"/>
+    <text x="610" y="176">README.md</text>
+    <rect x="755" y="150" width="150" height="42" rx="6" fill="#ffffff" stroke="#FF7F50" stroke-width="2"/>
+    <text x="830" y="176">fluxograma.svg</text>
+  </g>
+
+  <!-- pasta imagens -->
+  <rect x="390" y="250" width="220" height="46" rx="8" fill="#FFE3D6" stroke="#E5673B" stroke-width="2"/>
+  <text x="500" y="279" text-anchor="middle" font-size="15" font-weight="700" fill="#182c61" font-family="monospace">imagens/  ·  14 arquivos</text>
+
+  <!-- categorias -->
+  <!-- Pratos -->
+  <rect x="35" y="350" width="210" height="130" rx="8" fill="#ffffff" stroke="#182c61" stroke-width="1.5"/>
+  <rect x="39" y="354" width="202" height="22" rx="6" fill="#FF7F50"/>
+  <text x="140" y="369" text-anchor="middle" font-size="13" font-weight="700" fill="#182c61">Pratos</text>
+  <g font-family="monospace" font-size="9" fill="#182c61">
+    <text x="47" y="394">Macarrão_camarão_maranhão.png</text>
+    <text x="47" y="409">Salada_camarao.jpg</text>
+    <text x="47" y="424">Camarão_empanado_chocolate.jpg</text>
+    <text x="47" y="439" fill="#8a8a8a">galo-…-share.jpg (reserva)</text>
+  </g>
+
+  <!-- Bebidas -->
+  <rect x="275" y="350" width="210" height="130" rx="8" fill="#ffffff" stroke="#182c61" stroke-width="1.5"/>
+  <rect x="279" y="354" width="202" height="22" rx="6" fill="#FF7F50"/>
+  <text x="380" y="369" text-anchor="middle" font-size="13" font-weight="700" fill="#182c61">Bebidas</text>
+  <g font-family="monospace" font-size="9" fill="#182c61">
+    <text x="287" y="394">linha_de_bebidas.jpg</text>
+  </g>
+
+  <!-- Pagamento -->
+  <rect x="515" y="350" width="210" height="130" rx="8" fill="#ffffff" stroke="#182c61" stroke-width="1.5"/>
+  <rect x="519" y="354" width="202" height="22" rx="6" fill="#FF7F50"/>
+  <text x="620" y="369" text-anchor="middle" font-size="13" font-weight="700" fill="#182c61">Pagamento</text>
+  <g font-family="monospace" font-size="9" fill="#182c61">
+    <text x="527" y="394">Sodexo.png</text>
+    <text x="527" y="409">VR.png</text>
+    <text x="527" y="424">Ticket.png</text>
+    <text x="527" y="439">Alelo.png</text>
+    <text x="527" y="454">Pix.png</text>
+  </g>
+
+  <!-- Redes sociais -->
+  <rect x="755" y="350" width="210" height="130" rx="8" fill="#ffffff" stroke="#182c61" stroke-width="1.5"/>
+  <rect x="759" y="354" width="202" height="22" rx="6" fill="#FF7F50"/>
+  <text x="860" y="369" text-anchor="middle" font-size="13" font-weight="700" fill="#182c61">Redes sociais</text>
+  <g font-family="monospace" font-size="9" fill="#182c61">
+    <text x="767" y="394">instagram_png.webp</text>
+    <text x="767" y="409">facebook-13.png</text>
+    <text x="767" y="424">youtube-logo-hd-8.jpg</text>
+    <text x="767" y="439" fill="#8a8a8a">youtube-logo-hd-8.png (reserva)</text>
+  </g>
+
+  <!-- legenda -->
+  <g font-size="11" fill="#182c61">
+    <line x1="40" y1="503" x2="70" y2="503" stroke="#182c61" stroke-width="2"/>
+    <text x="78" y="507">estrutura de pastas</text>
+    <line x1="235" y1="503" x2="265" y2="503" stroke="#E5673B" stroke-width="1.8" stroke-dasharray="5 4"/>
+    <text x="273" y="507">index.html referencia main.css e as imagens</text>
+  </g>
+</svg>

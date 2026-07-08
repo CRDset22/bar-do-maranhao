@@ -37,15 +37,18 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container, 
+header .container,
 section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.cardapio Img {
+/* imagens do cardápio: todas com a mesma dimensão 260 x 100 */
+.cardapio img {
+    width: 260px;
     height: 100px;
+    object-fit: cover;
 }
 
 section .container {
@@ -77,7 +80,7 @@ section img {
     display: inline;
 }
 
-.social-links Img {
+.social-links img {
     height: 24px;
 }
 
